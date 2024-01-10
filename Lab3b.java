@@ -6,7 +6,7 @@ public class Lab3b {
         int n = sc.nextInt();
         int temp = n;
         int reverse =0;
-        int lastdigit=0;
+        int lastdigit;
         while (n > 0) {
             lastdigit = n % 10;
             reverse = reverse*10 + lastdigit;
