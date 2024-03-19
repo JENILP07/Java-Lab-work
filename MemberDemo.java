@@ -28,7 +28,7 @@ import java.util.Scanner;
         String specialization;
         String department;
         Employee(){
-            System.out.print("Enter employee Speciaization : ");
+            System.out.print("Enter employee Specification : ");
             specialization = sc.next();
             System.out.print("Enter employee Department : ");
             department = sc.next();
@@ -39,12 +39,12 @@ import java.util.Scanner;
         String specialization;
         String department;
         Manager(){
-            System.out.print("Enter employee Speciaization : ");
+            System.out.print("Enter employee Specification : ");
             specialization = sc.next();
             System.out.print("Enter employee Department : ");
             department = sc.next();
         }
-    }X
+    }
 
 public class MemberDemo {
     public static void main(String[] args) {
@@ -55,4 +55,4 @@ public class MemberDemo {
          Manager m1 = new Manager();
          m1.printSalary();
     }
-}       X
+}
