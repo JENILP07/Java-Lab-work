@@ -31,8 +31,8 @@ public class Lab11d {
 			while ( f.available () > 0 ){
 				String name = f.readUTF ();
 				int age = f.readInt ();
-				STudent stu = new STudent (name,age);
-				System.out.println (stu);
+				//STudent stu = new STudent (name,age);
+				//System.out.println (stu);
 			}
 		}catch ( Exception e ){
 			//e.printStackTrace ();
